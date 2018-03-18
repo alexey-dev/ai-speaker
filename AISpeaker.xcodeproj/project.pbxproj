@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D139642205A9EC900246978 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139641205A9EC900246978 /* main.cpp */; };
+		1D13964B205AA15700246978 /* AIEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139649205AA15700246978 /* AIEngine.cpp */; };
+		1D13964F205AA37B00246978 /* IOAbstractFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D13964D205AA37B00246978 /* IOAbstractFactory.cpp */; };
+		1D139652205AA55600246978 /* IOConsoleFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139650205AA55600246978 /* IOConsoleFactory.cpp */; };
+		1D139656205AB1F300246978 /* AIPerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139654205AB1F300246978 /* AIPerson.cpp */; };
+		1D139659205AB30600246978 /* AIPersonBrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139657205AB30600246978 /* AIPersonBrain.cpp */; };
+		1D13965C205AB31900246978 /* AIPersonMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D13965A205AB31900246978 /* AIPersonMemory.cpp */; };
+		1D13965F205AB55200246978 /* AIPersonPartsAbstarctFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D13965D205AB55200246978 /* AIPersonPartsAbstarctFactory.cpp */; };
+		1D139662205AB66700246978 /* AISimplePersonPartsFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139660205AB66700246978 /* AISimplePersonPartsFactory.cpp */; };
+		1D139665205ABE6000246978 /* AIPersonBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139663205ABE6000246978 /* AIPersonBuilder.cpp */; };
+		1D139669205AFCC800246978 /* UsefulMethods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D139667205AFCC800246978 /* UsefulMethods.cpp */; };
+		1DA733E3205BDBA800081BE8 /* IAIBehaivorState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA733E1205BDBA800081BE8 /* IAIBehaivorState.cpp */; };
+		1DA733E6205BDDFF00081BE8 /* AIHelloBehaivorState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA733E4205BDDFF00081BE8 /* AIHelloBehaivorState.cpp */; };
+		1DA733EA205C0A5200081BE8 /* LanguageInterpretator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA733E8205C0A5200081BE8 /* LanguageInterpretator.cpp */; };
+		1DA733ED205C0DDB00081BE8 /* LanguagePhrasesBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA733EB205C0DDB00081BE8 /* LanguagePhrasesBuilder.cpp */; };
+		1DA733F0205C10D600081BE8 /* PhraseInterpretator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA733EE205C10D600081BE8 /* PhraseInterpretator.cpp */; };
+		1DCA60C2205D594700D30F33 /* AIAquaintanceBehaivoralState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA60C0205D594700D30F33 /* AIAquaintanceBehaivoralState.cpp */; };
+		1DCA60C5205DBAEB00D30F33 /* AIStandartBehaivorState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA60C3205DBAEB00D30F33 /* AIStandartBehaivorState.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D13963C205A9EC900246978 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D13963E205A9EC900246978 /* AISpeaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AISpeaker; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D139641205A9EC900246978 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D139649205AA15700246978 /* AIEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIEngine.cpp; sourceTree = "<group>"; };
+		1D13964A205AA15700246978 /* AIEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIEngine.hpp; sourceTree = "<group>"; };
+		1D13964D205AA37B00246978 /* IOAbstractFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOAbstractFactory.cpp; sourceTree = "<group>"; };
+		1D13964E205AA37B00246978 /* IOAbstractFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOAbstractFactory.hpp; sourceTree = "<group>"; };
+		1D139650205AA55600246978 /* IOConsoleFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOConsoleFactory.cpp; sourceTree = "<group>"; };
+		1D139651205AA55600246978 /* IOConsoleFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOConsoleFactory.hpp; sourceTree = "<group>"; };
+		1D139654205AB1F300246978 /* AIPerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIPerson.cpp; sourceTree = "<group>"; };
+		1D139655205AB1F300246978 /* AIPerson.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIPerson.hpp; sourceTree = "<group>"; };
+		1D139657205AB30600246978 /* AIPersonBrain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIPersonBrain.cpp; sourceTree = "<group>"; };
+		1D139658205AB30600246978 /* AIPersonBrain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIPersonBrain.hpp; sourceTree = "<group>"; };
+		1D13965A205AB31900246978 /* AIPersonMemory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIPersonMemory.cpp; sourceTree = "<group>"; };
+		1D13965B205AB31900246978 /* AIPersonMemory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIPersonMemory.hpp; sourceTree = "<group>"; };
+		1D13965D205AB55200246978 /* AIPersonPartsAbstarctFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIPersonPartsAbstarctFactory.cpp; sourceTree = "<group>"; };
+		1D13965E205AB55200246978 /* AIPersonPartsAbstarctFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIPersonPartsAbstarctFactory.hpp; sourceTree = "<group>"; };
+		1D139660205AB66700246978 /* AISimplePersonPartsFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AISimplePersonPartsFactory.cpp; sourceTree = "<group>"; };
+		1D139661205AB66700246978 /* AISimplePersonPartsFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AISimplePersonPartsFactory.hpp; sourceTree = "<group>"; };
+		1D139663205ABE6000246978 /* AIPersonBuilder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIPersonBuilder.cpp; sourceTree = "<group>"; };
+		1D139664205ABE6000246978 /* AIPersonBuilder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIPersonBuilder.hpp; sourceTree = "<group>"; };
+		1D139667205AFCC800246978 /* UsefulMethods.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UsefulMethods.cpp; sourceTree = "<group>"; };
+		1D139668205AFCC800246978 /* UsefulMethods.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UsefulMethods.hpp; sourceTree = "<group>"; };
+		1DA733E1205BDBA800081BE8 /* IAIBehaivorState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IAIBehaivorState.cpp; sourceTree = "<group>"; };
+		1DA733E2205BDBA800081BE8 /* IAIBehaivorState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IAIBehaivorState.hpp; sourceTree = "<group>"; };
+		1DA733E4205BDDFF00081BE8 /* AIHelloBehaivorState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIHelloBehaivorState.cpp; sourceTree = "<group>"; };
+		1DA733E5205BDDFF00081BE8 /* AIHelloBehaivorState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIHelloBehaivorState.hpp; sourceTree = "<group>"; };
+		1DA733E8205C0A5200081BE8 /* LanguageInterpretator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LanguageInterpretator.cpp; sourceTree = "<group>"; };
+		1DA733E9205C0A5200081BE8 /* LanguageInterpretator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LanguageInterpretator.hpp; sourceTree = "<group>"; };
+		1DA733EB205C0DDB00081BE8 /* LanguagePhrasesBuilder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LanguagePhrasesBuilder.cpp; sourceTree = "<group>"; };
+		1DA733EC205C0DDB00081BE8 /* LanguagePhrasesBuilder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LanguagePhrasesBuilder.hpp; sourceTree = "<group>"; };
+		1DA733EE205C10D600081BE8 /* PhraseInterpretator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhraseInterpretator.cpp; sourceTree = "<group>"; };
+		1DA733EF205C10D600081BE8 /* PhraseInterpretator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhraseInterpretator.hpp; sourceTree = "<group>"; };
+		1DCA60C0205D594700D30F33 /* AIAquaintanceBehaivoralState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIAquaintanceBehaivoralState.cpp; sourceTree = "<group>"; };
+		1DCA60C1205D594700D30F33 /* AIAquaintanceBehaivoralState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIAquaintanceBehaivoralState.hpp; sourceTree = "<group>"; };
+		1DCA60C3205DBAEB00D30F33 /* AIStandartBehaivorState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIStandartBehaivorState.cpp; sourceTree = "<group>"; };
+		1DCA60C4205DBAEB00D30F33 /* AIStandartBehaivorState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIStandartBehaivorState.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D13963B205A9EC900246978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D139635205A9EC900246978 = {
+			isa = PBXGroup;
+			children = (
+				1D139640205A9EC900246978 /* AISpeaker */,
+				1D13963F205A9EC900246978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D13963F205A9EC900246978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D13963E205A9EC900246978 /* AISpeaker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D139640205A9EC900246978 /* AISpeaker */ = {
+			isa = PBXGroup;
+			children = (
+				1D139666205AFC6B00246978 /* Utils */,
+				1D13964C205AA1D200246978 /* IOInteraction */,
+				1D139648205AA13200246978 /* AI */,
+				1D139641205A9EC900246978 /* main.cpp */,
+			);
+			path = AISpeaker;
+			sourceTree = "<group>";
+		};
+		1D139648205AA13200246978 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				1D139653205AB10500246978 /* AIPerson */,
+				1D139649205AA15700246978 /* AIEngine.cpp */,
+				1D13964A205AA15700246978 /* AIEngine.hpp */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		1D13964C205AA1D200246978 /* IOInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				1D13964D205AA37B00246978 /* IOAbstractFactory.cpp */,
+				1D13964E205AA37B00246978 /* IOAbstractFactory.hpp */,
+				1D139650205AA55600246978 /* IOConsoleFactory.cpp */,
+				1D139651205AA55600246978 /* IOConsoleFactory.hpp */,
+			);
+			path = IOInteraction;
+			sourceTree = "<group>";
+		};
+		1D139653205AB10500246978 /* AIPerson */ = {
+			isa = PBXGroup;
+			children = (
+				1DA733E7205C097300081BE8 /* LanguageInterpretator */,
+				1DA733E0205BDB5B00081BE8 /* AIBehaivor */,
+				1D139654205AB1F300246978 /* AIPerson.cpp */,
+				1D139655205AB1F300246978 /* AIPerson.hpp */,
+				1D139657205AB30600246978 /* AIPersonBrain.cpp */,
+				1D139658205AB30600246978 /* AIPersonBrain.hpp */,
+				1D13965A205AB31900246978 /* AIPersonMemory.cpp */,
+				1D13965B205AB31900246978 /* AIPersonMemory.hpp */,
+				1D13965D205AB55200246978 /* AIPersonPartsAbstarctFactory.cpp */,
+				1D13965E205AB55200246978 /* AIPersonPartsAbstarctFactory.hpp */,
+				1D139660205AB66700246978 /* AISimplePersonPartsFactory.cpp */,
+				1D139661205AB66700246978 /* AISimplePersonPartsFactory.hpp */,
+				1D139663205ABE6000246978 /* AIPersonBuilder.cpp */,
+				1D139664205ABE6000246978 /* AIPersonBuilder.hpp */,
+			);
+			path = AIPerson;
+			sourceTree = "<group>";
+		};
+		1D139666205AFC6B00246978 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D139667205AFCC800246978 /* UsefulMethods.cpp */,
+				1D139668205AFCC800246978 /* UsefulMethods.hpp */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1DA733E0205BDB5B00081BE8 /* AIBehaivor */ = {
+			isa = PBXGroup;
+			children = (
+				1DA733E1205BDBA800081BE8 /* IAIBehaivorState.cpp */,
+				1DA733E2205BDBA800081BE8 /* IAIBehaivorState.hpp */,
+				1DA733E4205BDDFF00081BE8 /* AIHelloBehaivorState.cpp */,
+				1DA733E5205BDDFF00081BE8 /* AIHelloBehaivorState.hpp */,
+				1DCA60C0205D594700D30F33 /* AIAquaintanceBehaivoralState.cpp */,
+				1DCA60C1205D594700D30F33 /* AIAquaintanceBehaivoralState.hpp */,
+				1DCA60C3205DBAEB00D30F33 /* AIStandartBehaivorState.cpp */,
+				1DCA60C4205DBAEB00D30F33 /* AIStandartBehaivorState.hpp */,
+			);
+			path = AIBehaivor;
+			sourceTree = "<group>";
+		};
+		1DA733E7205C097300081BE8 /* LanguageInterpretator */ = {
+			isa = PBXGroup;
+			children = (
+				1DA733E8205C0A5200081BE8 /* LanguageInterpretator.cpp */,
+				1DA733E9205C0A5200081BE8 /* LanguageInterpretator.hpp */,
+				1DA733EB205C0DDB00081BE8 /* LanguagePhrasesBuilder.cpp */,
+				1DA733EC205C0DDB00081BE8 /* LanguagePhrasesBuilder.hpp */,
+				1DA733EE205C10D600081BE8 /* PhraseInterpretator.cpp */,
+				1DA733EF205C10D600081BE8 /* PhraseInterpretator.hpp */,
+			);
+			path = LanguageInterpretator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D13963D205A9EC900246978 /* AISpeaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D139645205A9EC900246978 /* Build configuration list for PBXNativeTarget "AISpeaker" */;
+			buildPhases = (
+				1D13963A205A9EC900246978 /* Sources */,
+				1D13963B205A9EC900246978 /* Frameworks */,
+				1D13963C205A9EC900246978 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AISpeaker;
+			productName = AISpeaker;
+			productReference = 1D13963E205A9EC900246978 /* AISpeaker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D139636205A9EC900246978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alex Usachov";
+				TargetAttributes = {
+					1D13963D205A9EC900246978 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D139639205A9EC900246978 /* Build configuration list for PBXProject "AISpeaker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D139635205A9EC900246978;
+			productRefGroup = 1D13963F205A9EC900246978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D13963D205A9EC900246978 /* AISpeaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D13963A205A9EC900246978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D139665205ABE6000246978 /* AIPersonBuilder.cpp in Sources */,
+				1DA733E3205BDBA800081BE8 /* IAIBehaivorState.cpp in Sources */,
+				1D139656205AB1F300246978 /* AIPerson.cpp in Sources */,
+				1D13965F205AB55200246978 /* AIPersonPartsAbstarctFactory.cpp in Sources */,
+				1DA733ED205C0DDB00081BE8 /* LanguagePhrasesBuilder.cpp in Sources */,
+				1D139659205AB30600246978 /* AIPersonBrain.cpp in Sources */,
+				1DCA60C5205DBAEB00D30F33 /* AIStandartBehaivorState.cpp in Sources */,
+				1DA733E6205BDDFF00081BE8 /* AIHelloBehaivorState.cpp in Sources */,
+				1D139652205AA55600246978 /* IOConsoleFactory.cpp in Sources */,
+				1D13965C205AB31900246978 /* AIPersonMemory.cpp in Sources */,
+				1D139642205A9EC900246978 /* main.cpp in Sources */,
+				1D13964B205AA15700246978 /* AIEngine.cpp in Sources */,
+				1DCA60C2205D594700D30F33 /* AIAquaintanceBehaivoralState.cpp in Sources */,
+				1D139662205AB66700246978 /* AISimplePersonPartsFactory.cpp in Sources */,
+				1D139669205AFCC800246978 /* UsefulMethods.cpp in Sources */,
+				1D13964F205AA37B00246978 /* IOAbstractFactory.cpp in Sources */,
+				1DA733F0205C10D600081BE8 /* PhraseInterpretator.cpp in Sources */,
+				1DA733EA205C0A5200081BE8 /* LanguageInterpretator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D139643205A9EC900246978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D139644205A9EC900246978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D139646205A9EC900246978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D139647205A9EC900246978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D139639205A9EC900246978 /* Build configuration list for PBXProject "AISpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D139643205A9EC900246978 /* Debug */,
+				1D139644205A9EC900246978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D139645205A9EC900246978 /* Build configuration list for PBXNativeTarget "AISpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D139646205A9EC900246978 /* Debug */,
+				1D139647205A9EC900246978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D139636205A9EC900246978 /* Project object */;
+}
